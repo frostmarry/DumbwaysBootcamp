@@ -2,7 +2,7 @@
 
 - Clone repo dumbplay dengan perintah `git clone git@github.com:frostmarry/dumbplay.git` dan masuk ke directory backend lalu jalankan perintah `npm install`
 
-- instal library pendukung seperti nodejs, npm dan pm2 seperti `minggu pertama` ditambah instal sequelize dengan perintah `sudo npm install -g sequelize-cli` untuk migrasi database
+- instal library pendukung seperti nodejs, npm dan pm2 seperti (minggu pertama)[../../dumbweek1] ditambah instal sequelize dengan perintah `sudo npm install -g sequelize-cli` untuk migrasi database
 
 - Edit file config.json pada directory `dumbplay/backend/config/` dan isi username, password serta host sesuai seperti yang sudah dibuat pada sesi `instalasi database` 
 

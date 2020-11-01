@@ -13,7 +13,7 @@
 
 ![text](asset/4.png)
 
-- Tes login dari https://elga.instructype.com menggunakan user yang sudah ditambahkan saat proses `reverse proxy backend`
+- Tes login dari https://elga.instructype.com menggunakan user yang sudah ditambahkan saat proses [reverse proxy backend](../Reverse%20Proxy%20for%20Backend%20Application)
 
 ![text](asset/5.png)
 ![text](asset/6.png)
