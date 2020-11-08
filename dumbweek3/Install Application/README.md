@@ -26,6 +26,6 @@ frontend:
 
 ![text](asset/4.png)
 
-- Cek pada di docker compose
+- Cek apakah docker compose sudah berjalan menggunakan `docker ps`
 
 ![text](asset/5.png)
