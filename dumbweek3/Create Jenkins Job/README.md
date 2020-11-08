@@ -34,3 +34,7 @@ Untuk build saya lakukan setelah terjadi perubahan pada repo github
 
 ![text](asset/8.png)
 ![text](asset/9.png)
+
+- Untuk notifikasi build saya menggunakan Discord notif
+
+![text](asset/10.png)
