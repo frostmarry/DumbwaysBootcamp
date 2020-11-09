@@ -16,11 +16,11 @@
 
 ![text](asset/4.png)
 
-- Menambahkan informasi server remote yang ingin dihubungkan dengan publish over ssh. Pada kasus ini, saya tidak menggunakan ssh key dan mencoba mengguakan password server, hasilnya pun sama saja.
+- Menambahkan informasi server remote yang ingin dihubungkan dengan publish over ssh. Pada kasus ini, saya tidak menggunakan ssh key dan mencoba menggunakan password server, hasilnya pun sama saja.
 
 ![text](asset/5.png)
 
-- Pengaturan build mengguakan publish over ssh, nama didapat dari proses sebelumnya yang sudah berhasil konek ke remote server. untuk remote directorynya pastikan sudah masuk /home/user dan exec command berisi perintah yang akan dijalankan pada server remote
+- Pengaturan build menggunakan publish over ssh, nama didapat dari proses sebelumnya yang sudah berhasil konek ke remote server. untuk remote directorynya pastikan sudah masuk /home/user dan exec command berisi perintah yang akan dijalankan pada server remote
 
 Untuk build saya lakukan setelah terjadi perubahan pada repo github
 
@@ -34,3 +34,11 @@ Untuk build saya lakukan setelah terjadi perubahan pada repo github
 
 ![text](asset/8.png)
 ![text](asset/9.png)
+
+- Untuk push image ke docker saya menggunakan fitur yang sudah disediakan oleh docker, yaitu docker build yang terintegrasi dengan akun github, jadi docker akan secara otomatis melakukan build dan push setelah ada perubahan pada repo github.
+
+![text](asset/10.png)
+
+- Setelah proses build berhasil akan ada keterangan kapan proses selesai dan di push, dipojok kanan bawah ada keterangan siapa yang melakukan build
+
+![text](asset/11.png)
