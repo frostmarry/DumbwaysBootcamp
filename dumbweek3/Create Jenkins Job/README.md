@@ -35,10 +35,16 @@ Untuk build saya lakukan setelah terjadi perubahan pada repo github
 ![text](asset/8.png)
 ![text](asset/9.png)
 
+
 - Untuk push image ke docker saya menggunakan fitur yang sudah disediakan oleh docker, yaitu docker build yang terintegrasi dengan akun github, jadi docker akan secara otomatis melakukan build dan push setelah ada perubahan pada repo github.
 
-![text](asset/10.png)
+![text](asset/11.png)
 
 - Setelah proses build berhasil akan ada keterangan kapan proses selesai dan di push, dipojok kanan bawah ada keterangan siapa yang melakukan build
 
-![text](asset/11.png)
+![text](asset/12.png)
+
+- Untuk notifikasi build saya menggunakan Discord notif
+
+![text](asset/10.png)
+
