@@ -19,7 +19,7 @@ Keterangan:
 
 ![text](asset/2.png)
 
-untuk proses instalasi saya langsung pilih konfigurasi standar dan tambahan install plugin github, telegram bot dan publish over ssh
+untuk proses instalasi saya langsung pilih konfigurasi standar dan tambahan install plugin github, discord bot dan publish over ssh
 
 
 ## TAMBAHAN
