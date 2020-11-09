@@ -23,7 +23,7 @@ docker images
 - Membuat container dari image yang sudah ada
 
 ```
-docker create --name namacontainer -p portlocal:portaplikasi namaimage:tag
+docker container create --name namacontainer -p portlocal:portaplikasi namaimage:tag
 docker container start namacontainer
 ```
 
