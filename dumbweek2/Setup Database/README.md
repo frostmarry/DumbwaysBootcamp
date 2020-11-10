@@ -1,6 +1,6 @@
 # Setup Database
 
-- Instal mysql pada server database dengan perintah `sudo apt install mysql` dan pilih mysql versi 5.7
+- Instal mysql pada server database dengan perintah `sudo apt install mysql-server` dan pilih mysql versi 5.7
 
 ![text](asset/1.png)
 ![text](asset/2.png)
@@ -22,6 +22,8 @@
 create user 'namauser'@'ip-server-backend' identified by 'password'; 
 
 grant all on *.* to 'namauser'@'ip-server-backend';
+
+FLUSH PRIVILEGES;
 ```
 
 ![text](asset/6.png)

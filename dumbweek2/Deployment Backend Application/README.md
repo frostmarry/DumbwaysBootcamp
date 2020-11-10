@@ -20,6 +20,8 @@
 
 ![text](asset/4.png)
 
+NB: jika proses migrasi gagal coba install mysql2 dengan perintah `sudo npm install -g mysql2`
+
 - Aktifkan pm2 untuk backend agar nodejs terus berjalan walaupun ssh terputus
 
 ![text](asset/5.png)

@@ -13,7 +13,7 @@
 
 ![text](asset/4.png)
 
-- Hubungkan file dumplay.conf yang ada dalam directory `etc/nginx/sites-available` ke directory `etc/nginx/sites-enabled` menggunakan perintah `ln -s etc/nginx/sites-available/dumplay.conf etc/nginx/sites-enabled/dumplay.conf` agar tidak perlu mengganti file nginx.conf karena secara default sudah ada `include etc/nginx/sites-enabled/*`
+- Hubungkan file dumplay.conf yang ada dalam directory `etc/nginx/sites-available` ke directory `etc/nginx/sites-enabled` menggunakan perintah `ln -s /etc/nginx/sites-available/jenkins.conf /etc/nginx/sites-enabled/jenkins.conf` agar tidak perlu mengganti file nginx.conf karena secara default sudah ada `include etc/nginx/sites-enabled/*`
 
 ![text](asset/5.png)
 

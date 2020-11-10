@@ -1,5 +1,15 @@
 # INSTALL APPLICATION
 
+- Sebelumnya install docker-compose karena docker dan docker-compose adalah 2 aplikasi yang berbeda.
+```
+sudo curl -L "https://github.com/docker/compose/releases/download/1.27.4/docker-compose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+
+sudo chmod +x /usr/local/bin/docker-compose
+
+docker-compose --version
+
+```
+
 - Membuat file `docker-compose.yml` dengan isi seperti berikut
 
 Untuk backend:
