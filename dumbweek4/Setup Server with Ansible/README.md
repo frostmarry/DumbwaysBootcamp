@@ -27,17 +27,21 @@ NB: pada awalnya ansible_user tidak ada dan untuk melakukan ssh ke server remote
 - Setelah beberapa proses diatas, saya juga melakukan beebrapa eksperimen seperti generate ssh keys, instalasi mysql dan melakukan git clone menggunakan ansible-playbook
 
 Proses generate ssh keys:
+
 ![text](asset/9.png)
 ![text](asset/10.png)
 
 
 Proses clone repository private menggunakan ssh:
+
 ![text](asset/11.png)
 ![text](asset/12.png)
+
 NB: Untuk menambahkan ssh key ke github masih dilakukan secara manual 
 
 
 Proses instalasi mysql:
+
 ![text](asset/13.png)
 ![text](asset/14.png)
 
