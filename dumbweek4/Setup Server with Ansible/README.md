@@ -4,7 +4,6 @@
 ```
 apt install python
 sudo apt-add-repository ppa:ansible/ansible
-update and install
 apt update
 apt install ansible
 ```
